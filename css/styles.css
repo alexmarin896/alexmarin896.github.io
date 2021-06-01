@@ -6031,7 +6031,18 @@ a.close.disabled {
   text-align: center;
 }
 
-
+.carousel-caption {
+    margin-bottom: 125px;
+}
+.carousel-inner> .item {
+    margin: 0 auto;
+    height: 500px;
+}
+.carousel .item > img {
+   height: auto;
+   min-height:500px;
+   min-width: 100%;
+}
 
 @-webkit-keyframes spinner-border {
   to {
@@ -10485,18 +10496,6 @@ header.masthead .masthead-heading {
 height: auto;
 }
 
-.carousel-caption {
-    margin-bottom: 125px;
-}
-.carousel-inner> .item {
-    margin: 0 auto;
-    height: 500px;
-}
-.carousel .item > img {
-   height: auto;
-   min-height:500px;
-   min-width: 100%;
-}
 
 section#contact {
   background-color: #212529;
