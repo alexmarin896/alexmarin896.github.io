@@ -5842,6 +5842,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin: 0 auto;
 }
 .carousel-inner::after {
   display: block;
@@ -5855,6 +5856,8 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
+  min-width: 100%;
+  height: auto;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
@@ -6029,20 +6032,9 @@ a.close.disabled {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
+  margin-bottom: 125px;
 }
 
-.carousel-caption {
-    margin-bottom: 125px;
-}
-.carousel-inner> .item {
-    margin: 0 auto;
-    /*height: 500px; */
-}
-.carousel .item > img {
-   height: auto;
-   min-height:500px;
-   min-width: 100%;
-}
 
 @-webkit-keyframes spinner-border {
   to {
