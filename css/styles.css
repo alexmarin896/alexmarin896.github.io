@@ -5871,6 +5871,10 @@ a.close.disabled {
   height:auto;
 }
 
+.carousel img {
+    height: 100% !important;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
