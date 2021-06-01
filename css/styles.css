@@ -10481,6 +10481,10 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.flexslider-hg.flexslider ul.slides img {
+height: auto;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
