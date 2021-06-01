@@ -10485,6 +10485,19 @@ header.masthead .masthead-heading {
 height: auto;
 }
 
+.carousel-caption {
+    margin-bottom: 125px;
+}
+.carousel-inner> .item {
+    margin: 0 auto;
+    height: 500px;
+}
+.carousel .item > img {
+   height: auto;
+   min-height:500px;
+   min-width: 100%;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
